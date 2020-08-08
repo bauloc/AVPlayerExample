@@ -8,22 +8,68 @@
 
 /* Begin PBXBuildFile section */
 		30D64B2324DE89BB00BDBF20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D64B2224DE89BB00BDBF20 /* AppDelegate.swift */; };
-		30D64B2524DE89BB00BDBF20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D64B2424DE89BB00BDBF20 /* SceneDelegate.swift */; };
 		30D64B2724DE89BB00BDBF20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D64B2624DE89BB00BDBF20 /* ViewController.swift */; };
 		30D64B2A24DE89BB00BDBF20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30D64B2824DE89BB00BDBF20 /* Main.storyboard */; };
 		30D64B2C24DE89BD00BDBF20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D64B2B24DE89BD00BDBF20 /* Assets.xcassets */; };
 		30D64B2F24DE89BD00BDBF20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30D64B2D24DE89BD00BDBF20 /* LaunchScreen.storyboard */; };
+		30D64B4024DE8E0500BDBF20 /* PlayerViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30D64B3D24DE8E0500BDBF20 /* PlayerViewController.storyboard */; };
+		30D64B4124DE8E0500BDBF20 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D64B3E24DE8E0500BDBF20 /* PlayerViewController.swift */; };
+		30D64B4224DE8E0500BDBF20 /* PlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30D64B3F24DE8E0500BDBF20 /* PlayerViewController.xib */; };
+		30D64B4424DE8E4500BDBF20 /* PlayerViewController.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D64B4324DE8E4500BDBF20 /* PlayerViewController.xcassets */; };
+		30D64B4924DE90C400BDBF20 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D64B4824DE90C400BDBF20 /* PlayerView.swift */; };
+		30D64B6424DE910000BDBF20 /* FSeekingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30D64B4C24DE90FF00BDBF20 /* FSeekingView.xib */; };
+		30D64B6524DE910000BDBF20 /* FSeekingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D64B4D24DE90FF00BDBF20 /* FSeekingView.swift */; };
+		30D64B6624DE910000BDBF20 /* FSeekingPlayerAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D64B4E24DE90FF00BDBF20 /* FSeekingPlayerAssets.xcassets */; };
+		30D64B6724DE910000BDBF20 /* FSeekingPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D64B5024DE90FF00BDBF20 /* FSeekingPlayer.swift */; };
+		30D64B6824DE910000BDBF20 /* FPopupCommonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D64B5324DE90FF00BDBF20 /* FPopupCommonCell.swift */; };
+		30D64B6924DE910000BDBF20 /* FPopupCommonSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D64B5424DE90FF00BDBF20 /* FPopupCommonSection.swift */; };
+		30D64B6A24DE910000BDBF20 /* FPopupContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D64B5524DE90FF00BDBF20 /* FPopupContentViewController.swift */; };
+		30D64B6B24DE910000BDBF20 /* UIDevice+FPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D64B5724DE90FF00BDBF20 /* UIDevice+FPopup.swift */; };
+		30D64B6C24DE910000BDBF20 /* UIColor+FPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D64B5824DE90FF00BDBF20 /* UIColor+FPopup.swift */; };
+		30D64B6D24DE910000BDBF20 /* UIView+FPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D64B5924DE90FF00BDBF20 /* UIView+FPopup.swift */; };
+		30D64B6E24DE910000BDBF20 /* FPopupViewController+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D64B5B24DE90FF00BDBF20 /* FPopupViewController+Animation.swift */; };
+		30D64B6F24DE910000BDBF20 /* FPopupViewController+FrameCalculation .swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D64B5C24DE90FF00BDBF20 /* FPopupViewController+FrameCalculation .swift */; };
+		30D64B7024DE910000BDBF20 /* FPopupViewController+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D64B5D24DE90FF00BDBF20 /* FPopupViewController+Helpers.swift */; };
+		30D64B7124DE910000BDBF20 /* FPopup.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30D64B5E24DE90FF00BDBF20 /* FPopup.storyboard */; };
+		30D64B7224DE910000BDBF20 /* FPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D64B5F24DE90FF00BDBF20 /* FPopupViewController.swift */; };
+		30D64B7324DE910000BDBF20 /* FPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D64B6024DE90FF00BDBF20 /* FPopup.swift */; };
+		30D64B7424DE910000BDBF20 /* FPopupSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D64B6224DE90FF00BDBF20 /* FPopupSection.swift */; };
+		30D64B7524DE910000BDBF20 /* FPopupItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D64B6324DE90FF00BDBF20 /* FPopupItem.swift */; };
+		30D64B7824DE944500BDBF20 /* BAULOC.mov in Resources */ = {isa = PBXBuildFile; fileRef = 30D64B7724DE944500BDBF20 /* BAULOC.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		30D64B1F24DE89BB00BDBF20 /* AVPlayerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVPlayerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30D64B2224DE89BB00BDBF20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		30D64B2424DE89BB00BDBF20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		30D64B2624DE89BB00BDBF20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		30D64B2924DE89BB00BDBF20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30D64B2B24DE89BD00BDBF20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30D64B2E24DE89BD00BDBF20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		30D64B3024DE89BD00BDBF20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30D64B3D24DE8E0500BDBF20 /* PlayerViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PlayerViewController.storyboard; sourceTree = "<group>"; };
+		30D64B3E24DE8E0500BDBF20 /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		30D64B3F24DE8E0500BDBF20 /* PlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerViewController.xib; sourceTree = "<group>"; };
+		30D64B4324DE8E4500BDBF20 /* PlayerViewController.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PlayerViewController.xcassets; sourceTree = "<group>"; };
+		30D64B4824DE90C400BDBF20 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		30D64B4C24DE90FF00BDBF20 /* FSeekingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FSeekingView.xib; sourceTree = "<group>"; };
+		30D64B4D24DE90FF00BDBF20 /* FSeekingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSeekingView.swift; sourceTree = "<group>"; };
+		30D64B4E24DE90FF00BDBF20 /* FSeekingPlayerAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = FSeekingPlayerAssets.xcassets; sourceTree = "<group>"; };
+		30D64B5024DE90FF00BDBF20 /* FSeekingPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSeekingPlayer.swift; sourceTree = "<group>"; };
+		30D64B5324DE90FF00BDBF20 /* FPopupCommonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FPopupCommonCell.swift; sourceTree = "<group>"; };
+		30D64B5424DE90FF00BDBF20 /* FPopupCommonSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FPopupCommonSection.swift; sourceTree = "<group>"; };
+		30D64B5524DE90FF00BDBF20 /* FPopupContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FPopupContentViewController.swift; sourceTree = "<group>"; };
+		30D64B5724DE90FF00BDBF20 /* UIDevice+FPopup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+FPopup.swift"; sourceTree = "<group>"; };
+		30D64B5824DE90FF00BDBF20 /* UIColor+FPopup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+FPopup.swift"; sourceTree = "<group>"; };
+		30D64B5924DE90FF00BDBF20 /* UIView+FPopup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+FPopup.swift"; sourceTree = "<group>"; };
+		30D64B5B24DE90FF00BDBF20 /* FPopupViewController+Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FPopupViewController+Animation.swift"; sourceTree = "<group>"; };
+		30D64B5C24DE90FF00BDBF20 /* FPopupViewController+FrameCalculation .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FPopupViewController+FrameCalculation .swift"; sourceTree = "<group>"; };
+		30D64B5D24DE90FF00BDBF20 /* FPopupViewController+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FPopupViewController+Helpers.swift"; sourceTree = "<group>"; };
+		30D64B5E24DE90FF00BDBF20 /* FPopup.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FPopup.storyboard; sourceTree = "<group>"; };
+		30D64B5F24DE90FF00BDBF20 /* FPopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FPopupViewController.swift; sourceTree = "<group>"; };
+		30D64B6024DE90FF00BDBF20 /* FPopup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FPopup.swift; sourceTree = "<group>"; };
+		30D64B6224DE90FF00BDBF20 /* FPopupSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FPopupSection.swift; sourceTree = "<group>"; };
+		30D64B6324DE90FF00BDBF20 /* FPopupItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FPopupItem.swift; sourceTree = "<group>"; };
+		30D64B7724DE944500BDBF20 /* BAULOC.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = BAULOC.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +102,126 @@
 		30D64B2124DE89BB00BDBF20 /* AVPlayerExample */ = {
 			isa = PBXGroup;
 			children = (
+				30D64B7724DE944500BDBF20 /* BAULOC.mov */,
 				30D64B2224DE89BB00BDBF20 /* AppDelegate.swift */,
-				30D64B2424DE89BB00BDBF20 /* SceneDelegate.swift */,
 				30D64B2624DE89BB00BDBF20 /* ViewController.swift */,
+				30D64B3624DE8D6900BDBF20 /* Player */,
 				30D64B2824DE89BB00BDBF20 /* Main.storyboard */,
 				30D64B2B24DE89BD00BDBF20 /* Assets.xcassets */,
 				30D64B2D24DE89BD00BDBF20 /* LaunchScreen.storyboard */,
 				30D64B3024DE89BD00BDBF20 /* Info.plist */,
 			);
 			path = AVPlayerExample;
+			sourceTree = "<group>";
+		};
+		30D64B3624DE8D6900BDBF20 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				30D64B7624DE915C00BDBF20 /* Player */,
+				30D64B4524DE8E5700BDBF20 /* CustomUI */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		30D64B4524DE8E5700BDBF20 /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				30D64B5124DE90FF00BDBF20 /* FPopup */,
+				30D64B4A24DE90FF00BDBF20 /* FSeekingPlayer */,
+				30D64B4824DE90C400BDBF20 /* PlayerView.swift */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		30D64B4A24DE90FF00BDBF20 /* FSeekingPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				30D64B4B24DE90FF00BDBF20 /* FSeekingView */,
+				30D64B4F24DE90FF00BDBF20 /* FSeekingPlayer */,
+			);
+			path = FSeekingPlayer;
+			sourceTree = "<group>";
+		};
+		30D64B4B24DE90FF00BDBF20 /* FSeekingView */ = {
+			isa = PBXGroup;
+			children = (
+				30D64B4C24DE90FF00BDBF20 /* FSeekingView.xib */,
+				30D64B4D24DE90FF00BDBF20 /* FSeekingView.swift */,
+				30D64B4E24DE90FF00BDBF20 /* FSeekingPlayerAssets.xcassets */,
+			);
+			path = FSeekingView;
+			sourceTree = "<group>";
+		};
+		30D64B4F24DE90FF00BDBF20 /* FSeekingPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				30D64B5024DE90FF00BDBF20 /* FSeekingPlayer.swift */,
+			);
+			path = FSeekingPlayer;
+			sourceTree = "<group>";
+		};
+		30D64B5124DE90FF00BDBF20 /* FPopup */ = {
+			isa = PBXGroup;
+			children = (
+				30D64B5224DE90FF00BDBF20 /* FPopupContent */,
+				30D64B5624DE90FF00BDBF20 /* FPopupExtension */,
+				30D64B5A24DE90FF00BDBF20 /* FPopup */,
+				30D64B6124DE90FF00BDBF20 /* FPopupModels */,
+			);
+			path = FPopup;
+			sourceTree = "<group>";
+		};
+		30D64B5224DE90FF00BDBF20 /* FPopupContent */ = {
+			isa = PBXGroup;
+			children = (
+				30D64B5324DE90FF00BDBF20 /* FPopupCommonCell.swift */,
+				30D64B5424DE90FF00BDBF20 /* FPopupCommonSection.swift */,
+				30D64B5524DE90FF00BDBF20 /* FPopupContentViewController.swift */,
+			);
+			path = FPopupContent;
+			sourceTree = "<group>";
+		};
+		30D64B5624DE90FF00BDBF20 /* FPopupExtension */ = {
+			isa = PBXGroup;
+			children = (
+				30D64B5724DE90FF00BDBF20 /* UIDevice+FPopup.swift */,
+				30D64B5824DE90FF00BDBF20 /* UIColor+FPopup.swift */,
+				30D64B5924DE90FF00BDBF20 /* UIView+FPopup.swift */,
+			);
+			path = FPopupExtension;
+			sourceTree = "<group>";
+		};
+		30D64B5A24DE90FF00BDBF20 /* FPopup */ = {
+			isa = PBXGroup;
+			children = (
+				30D64B5B24DE90FF00BDBF20 /* FPopupViewController+Animation.swift */,
+				30D64B5C24DE90FF00BDBF20 /* FPopupViewController+FrameCalculation .swift */,
+				30D64B5D24DE90FF00BDBF20 /* FPopupViewController+Helpers.swift */,
+				30D64B5E24DE90FF00BDBF20 /* FPopup.storyboard */,
+				30D64B5F24DE90FF00BDBF20 /* FPopupViewController.swift */,
+				30D64B6024DE90FF00BDBF20 /* FPopup.swift */,
+			);
+			path = FPopup;
+			sourceTree = "<group>";
+		};
+		30D64B6124DE90FF00BDBF20 /* FPopupModels */ = {
+			isa = PBXGroup;
+			children = (
+				30D64B6224DE90FF00BDBF20 /* FPopupSection.swift */,
+				30D64B6324DE90FF00BDBF20 /* FPopupItem.swift */,
+			);
+			path = FPopupModels;
+			sourceTree = "<group>";
+		};
+		30D64B7624DE915C00BDBF20 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				30D64B3D24DE8E0500BDBF20 /* PlayerViewController.storyboard */,
+				30D64B3E24DE8E0500BDBF20 /* PlayerViewController.swift */,
+				30D64B3F24DE8E0500BDBF20 /* PlayerViewController.xib */,
+				30D64B4324DE8E4500BDBF20 /* PlayerViewController.xcassets */,
+			);
+			path = Player;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +283,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				30D64B2F24DE89BD00BDBF20 /* LaunchScreen.storyboard in Resources */,
+				30D64B4224DE8E0500BDBF20 /* PlayerViewController.xib in Resources */,
+				30D64B7824DE944500BDBF20 /* BAULOC.mov in Resources */,
 				30D64B2C24DE89BD00BDBF20 /* Assets.xcassets in Resources */,
+				30D64B6424DE910000BDBF20 /* FSeekingView.xib in Resources */,
+				30D64B7124DE910000BDBF20 /* FPopup.storyboard in Resources */,
+				30D64B4024DE8E0500BDBF20 /* PlayerViewController.storyboard in Resources */,
+				30D64B6624DE910000BDBF20 /* FSeekingPlayerAssets.xcassets in Resources */,
 				30D64B2A24DE89BB00BDBF20 /* Main.storyboard in Resources */,
+				30D64B4424DE8E4500BDBF20 /* PlayerViewController.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +303,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				30D64B2724DE89BB00BDBF20 /* ViewController.swift in Sources */,
+				30D64B6F24DE910000BDBF20 /* FPopupViewController+FrameCalculation .swift in Sources */,
+				30D64B6824DE910000BDBF20 /* FPopupCommonCell.swift in Sources */,
+				30D64B6524DE910000BDBF20 /* FSeekingView.swift in Sources */,
+				30D64B7524DE910000BDBF20 /* FPopupItem.swift in Sources */,
+				30D64B6724DE910000BDBF20 /* FSeekingPlayer.swift in Sources */,
+				30D64B6C24DE910000BDBF20 /* UIColor+FPopup.swift in Sources */,
+				30D64B6924DE910000BDBF20 /* FPopupCommonSection.swift in Sources */,
+				30D64B6B24DE910000BDBF20 /* UIDevice+FPopup.swift in Sources */,
 				30D64B2324DE89BB00BDBF20 /* AppDelegate.swift in Sources */,
-				30D64B2524DE89BB00BDBF20 /* SceneDelegate.swift in Sources */,
+				30D64B7324DE910000BDBF20 /* FPopup.swift in Sources */,
+				30D64B6D24DE910000BDBF20 /* UIView+FPopup.swift in Sources */,
+				30D64B6A24DE910000BDBF20 /* FPopupContentViewController.swift in Sources */,
+				30D64B7024DE910000BDBF20 /* FPopupViewController+Helpers.swift in Sources */,
+				30D64B4124DE8E0500BDBF20 /* PlayerViewController.swift in Sources */,
+				30D64B6E24DE910000BDBF20 /* FPopupViewController+Animation.swift in Sources */,
+				30D64B7224DE910000BDBF20 /* FPopupViewController.swift in Sources */,
+				30D64B4924DE90C400BDBF20 /* PlayerView.swift in Sources */,
+				30D64B7424DE910000BDBF20 /* FPopupSection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +465,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5L2NM6YDYV;
 				INFOPLIST_FILE = AVPlayerExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +484,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5L2NM6YDYV;
 				INFOPLIST_FILE = AVPlayerExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

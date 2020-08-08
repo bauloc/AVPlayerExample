@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="XKS-Ue-1ji">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Player View Controller-->
+        <scene sceneID="dAC-Xl-ZeE">
+            <objects>
+                <viewController storyboardIdentifier="PlayerViewController" id="XKS-Ue-1ji" customClass="PlayerViewController" customModule="AVPlayerExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AEc-9G-gJB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kv7-4Q-YNc" customClass="PlayerView" customModule="AVPlayerExample" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Kv7-4Q-YNc" firstAttribute="trailing" secondItem="AEc-9G-gJB" secondAttribute="trailing" id="5ps-M5-b0K"/>
+                            <constraint firstItem="Kv7-4Q-YNc" firstAttribute="top" secondItem="AEc-9G-gJB" secondAttribute="top" id="If1-UF-2iP"/>
+                            <constraint firstAttribute="bottom" secondItem="Kv7-4Q-YNc" secondAttribute="bottom" id="Nb3-Yj-bpn"/>
+                            <constraint firstItem="Kv7-4Q-YNc" firstAttribute="leading" secondItem="AEc-9G-gJB" secondAttribute="leading" id="WAI-bS-JzE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="cdY-G6-wNK"/>
+                    </view>
+                    <connections>
+                        <outlet property="viewPlayer" destination="Kv7-4Q-YNc" id="YPO-oG-Jwv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lro-E2-euW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="221.73913043478262"/>
+        </scene>
+    </scenes>
+</document>
